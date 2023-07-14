@@ -1,0 +1,84 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-image: url("pic.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.container {
+  margin-left: 1rem;
+  width: 100;
+}
+.title {
+  text-align: center;
+  margin-bottom: 2rem;
+  margin-top: 2rem;
+  color: black;
+  margin-right: 45rem;
+  font-size: 2rem;
+  font-family: sans-serif;
+  font-weight: 800;
+}
+.my_input_form input {
+  width: 30rem;
+  background-color: rgb(49, 47, 47);
+  border-radius: 5px;
+  height: 2rem;
+  border: 1px solid white;
+}
+.my_input_form {
+  display: flex;
+  gap: 1rem;
+}
+.addtaskbtn {
+  width: 10rem;
+  font-weight: bold;
+  height: 2rem;
+  text-transform: uppercase;
+  background-color: rebeccapurple;
+  border-radius: 1rem;
+  outline: 0;
+  cursor: pointer;
+  border: 1px solid white;
+  color: white;
+}
+.addtaskbtn:hover {
+  background-color: rgb(141, 30, 169);
+  transition: 0.3s ease-in-out;
+}
+.my_input_form input::placeholder {
+  text-indent: 10px;
+}
+#inputele {
+  color: white;
+}
+.task-item {
+  background-color: rgb(49, 47, 47);
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  margin-top: 1rem;
+  color: white;
+  width: 30rem;
+  display: flex;
+  align-items: center;
+  list-style: none;
+}
+
+.edit-icon,
+.delete-icon {
+  margin-left: 25rem;
+  /* margin-right:0; */
+  position: absolute;
+  cursor: pointer;
+  /* margin-right: 100px; */
+}
+.edit-icon{
+    margin-left: 23rem;
+}
+.delete-icon{
+    margin-right: 0;
+}
